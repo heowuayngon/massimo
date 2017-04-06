@@ -9,69 +9,69 @@
 
             <div class="title_careers"><img src="images/careers.png" class="full_img" /></div>
             
-            <div class="job_title">Production Executive</div>
+            <div class="job_title">Purchasing Assistant</div>
             
             <strong>JOB DESCRIPTION</strong><br />
             <table border="0" cellspacing="0" cellpadding="0" class="job_txt">
               <tr>
                 <td valign="top">•</td>
                 <td>&nbsp;</td>
-                <td valign="top">Assist Production Manager in daily production activities and ensure processes comply with standard order of operation and work instruction.</td>
+                <td valign="top">Prepare purchase order for superior approval and forward to vendors</td>
               </tr>
               <tr>
                 <td valign="top">•</td>
                 <td>&nbsp;</td>
-                <td valign="top">Responsible in production planning to ensure product produce with quality products and within timeline.</td>
+                <td valign="top">Arrange delivery schedule for incoming raw materials</td>
               </tr>
               <tr>
                 <td valign="top">•</td>
                 <td>&nbsp;</td>
-                <td valign="top">Monitor closely on production progress, daily output, downtime and production reject.</td>
+                <td valign="top">Verifies warehouse stock on weekly basis</td>
               </tr>
               <tr>
                 <td valign="top">•</td>
                 <td>&nbsp;</td>
-                <td valign="top">Assist in resolving daily operational issue, staff working schedule, attendance and staff discipline.</td>
+                <td valign="top">Monitor and update receiving and issuance of raw materials</td>
               </tr>
               <tr>
                 <td valign="top">•</td>
                 <td>&nbsp;</td>
-                <td valign="top">Establish necessary standard or work instruction, checklist or other department necessary documentation to ensure smooth operation.</td>
+                <td valign="top">Liaise with vendors and other department on delivery of purchases made</td>
               </tr>
               <tr>
                 <td valign="top">•</td>
                 <td>&nbsp;</td>
-                <td valign="top">Ensure that records are proper documented and updated and remain traceable.</td>
+                <td valign="top">Verify delivery order and purchase order</td>
               </tr>
               <tr>
                 <td valign="top">•</td>
                 <td>&nbsp;</td>
-                <td valign="top">Enforce in GMP and maintain optimum hygiene and cleanliness in plant.</td>
+                <td valign="top">Maintain files of all related documents</td>
               </tr>
               <tr>
                 <td valign="top">•</td>
                 <td>&nbsp;</td>
-                <td valign="top">Enforce in GMP and maintain optimum hygiene and cleanliness in plant.</td>
+                <td valign="top">Assist in month end stock take</td>
               </tr>
               <tr>
                 <td valign="top">•</td>
                 <td>&nbsp;</td>
-                <td valign="top">Assist production in supervision, motivation, training and control of production staffs to achieve production KPI.</td>
+                <td valign="top">Monitor the return process of damaged goods to vendors</td>
               </tr>
               <tr>
                 <td valign="top">•</td>
                 <td>&nbsp;</td>
-                <td valign="top">Coordinate with all level of people in daily production activity.</td>
+                <td valign="top">Prepare and submit monthly report to Manager</td>
               </tr>
               <tr>
                 <td valign="top">•</td>
                 <td>&nbsp;</td>
-                <td valign="top">Update production report on time and report production activities and issue to Production Manager.</td>
+                <td valign="top">Maintain and updates approved vendor list from time to time</td>
               </tr>
               <tr>
                 <td valign="top">•</td>
                 <td>&nbsp;</td>
-                <td valign="top">Carry out ad-hoc task which assign by The Management.</td>
+                <td valign="top">Performs related job duties as requested by superior</td>
               </tr>
             </table>
             <br />
@@ -80,38 +80,24 @@
               <tr>
                 <td valign="top">•</td>
                 <td>&nbsp;</td>
-                <td valign="top">At least Bachelor's Degree or Diploma in Food Technology/ Nutrition/ Dietetics or equivalent.</td>
+                <td valign="top">Graduate / Degree Holder in any related field (Business, Office Management, IT etc.)</td>
               </tr>
               <tr>
                 <td valign="top">•</td>
                 <td>&nbsp;</td>
-                <td valign="top">At least 2 years of working experience in related field.</td>
+                <td valign="top">1-2 year experience in purchasing</td>
               </tr>
               <tr>
                 <td valign="top">•</td>
                 <td>&nbsp;</td>
-                <td valign="top">Candidate with baking knowledge and experiences will have an advantage.</td>
+                <td valign="top">Computer literate (Microsoft Words, Excel and Power Point)</td>
               </tr>
               <tr>
                 <td valign="top">•</td>
                 <td>&nbsp;</td>
-                <td valign="top">Computer literate, possess communication skills and technical skills.</td>
+                <td valign="top">Fluent in English & Bahasa Malaysia. Proficiency in Mandarin will be an added advantage.</td>
               </tr>
-              <tr>
-                <td valign="top">•</td>
-                <td>&nbsp;</td>
-                <td valign="top">Able to show leadership in leading the production team to achieve target.</td>
-              </tr>
-              <tr>
-                <td valign="top">•</td>
-                <td>&nbsp;</td>
-                <td valign="top">Ability to work under pressure and meet tight deadlines</td>
-              </tr>
-              <tr>
-                <td valign="top">•</td>
-                <td>&nbsp;</td>
-                <td valign="top">Good knowledge in GMP, HACCP and ISO 22000</td>
-              </tr>
+              
             </table>
             <br />
             
