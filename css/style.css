@@ -1,0 +1,1078 @@
+@font-face {
+    font-family:'appleberry';
+    src:url(appleberry-webfont.eot) format('eot'),
+        url(appleberry-webfont.woff) format('woff'),
+        url(appleberry-webfont.ttf) format('truetype'),
+        url(appleberry-webfont.svg#svgFontName) format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+/*
+@font-face {
+        font-family:'scribble_box';
+        src:url(scribble_box_demo-webfont.eot) format('eot'),
+        url(scribble_box_demo-webfont.woff) format('woff'),
+        url(scribble_box_demo-webfont.ttf) format('truetype'),
+        url(scribble_box_demo-webfont.svg#svgFontName) format('svg');
+        font-weight:normal;
+        font-style:normal;
+}*/
+
+
+/*COMMON*/
+body, html{
+    margin:0; padding:0;
+    width:100%;
+    height:100%;
+    min-height:900px;
+    font-family: 'Lato', sans-serif;
+    background:url(../images/bg_page.jpg) center center;
+    background-size:cover;
+}
+img, a{border:none; outline:none; text-decoration:none;}
+.full_img{width:100%;}
+.container{
+    min-height:100%;
+    width:100%;
+    position:relative;
+}
+.content{
+    width:980px;
+    margin:0 auto;
+    min-height:100%;
+    position:relative;
+}
+.right_content_part{
+    position:relative;
+    top:0; left:290px;
+    color:#004625;
+    font-size:16px;
+    font-weight:bold;
+    text-shadow:1px 1px 1px #FFF;
+}
+.float_parent:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0px;
+}
+
+.big_title, .medium_title{
+    font-family:'scribble_box', sans-serif;
+    color:#684121;
+    font-size:50px;
+}
+.medium_title{font-size:30px;}
+.hide_on_desktop{display:none;}
+
+
+/*NAVIGATION*/
+.navigation{
+    width:222px;
+    height:800px;
+    background:url(../images/navigation_panel_bg.png) no-repeat center top;
+    position:absolute;
+    top:0; left:0;
+    z-index:99;
+}
+.nav_panel{
+    position:relative;
+    top:155px;
+    width:100%;
+    font-family:'appleberry', sans-serif;
+}
+.navi_lvl_1, .navi_lvl_1_selected{
+    color:#004625;
+    font-size:20px;
+    cursor:pointer;
+    width:83%;
+    margin:5px auto;
+}
+.navi_lvl_1:hover, .navi_lvl_1_selected{
+    color:#e92c26;
+    text-shadow:2px 2px #FFFFFF;
+}
+.navi_lvl_2, .bg_stick_long, .navi_lvl_2_selected, .bg_stick_long_selected{
+    color:#ffdb01;
+    font-size:13px;
+    font-weight:bold;
+    background:url(../images/navigation_stick_bg.png) no-repeat;
+    width:222px;
+    height:52px;
+    cursor:pointer;
+    margin-bottom:2px;
+}
+.navi_lvl_2:hover, .navi_lvl_2_selected{
+    color:#FFF;
+    /*background:url(../images/navigation_stick_bg2.png) no-repeat;*/
+}
+.stick_box, .stick_box2{
+    position:relative;
+    width:83%;
+    margin:0 auto;
+    top:3px;
+    text-shadow:2px 2px #91512d;
+}
+.stick_box2{
+    top:12px;
+}
+.btn_product6{
+    background:url(../images/navigation_stick_bg2.png) no-repeat;	
+}
+
+
+/*LANDING*/
+.landing_content{
+    background:url(../images/main_bg.jpg) center center;
+    background-size:cover;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:100;
+}
+.about_landing{display:none;}
+.start_btn{
+    position:absolute;
+    margin:auto;
+    left:0; right:0; bottom:70px;
+    max-width:120px;
+    width:100%;
+    cursor:pointer;
+}
+.landing_logo{
+    position:relative;
+    margin:0 auto;
+    width:100%;
+    max-width:151px;
+    top:20px;
+}
+.massion_bread_landing{
+    width:60vw;
+    height:51vh;
+    position:absolute;
+    margin:auto;
+    left:0; top:0; right:0; bottom:0;
+}
+.land_1{
+    width:43%;
+    position:absolute;
+    top:0; left:0;
+}
+.land_2{
+    width:55%;
+    position:absolute;
+    top:0; right:0;
+}
+
+
+/*ABOUT*/
+.about_content{
+    padding:50px 0 20px;
+    width:738px;
+    height:auto;
+}
+.about_txt_box_1{
+
+}
+.about_img_1{
+    float:right;	
+}
+.about_txt_box_2{
+    width:100%;
+    margin-top:60px;
+    position:relative;
+    left:0px;	
+}
+.title_about{
+    width:100%;
+    max-width:404px;	
+}
+.title_brandname{
+    width:100%;
+    max-width:340px;	
+}
+
+/*PRODUCT 1*/
+.product_content{padding-top:100px; width:690px;}
+.weight_title{font-size:23px; padding-top:5px;}
+.pro1_deco1{
+    width:354px;
+    position:absolute;
+    right:0;
+    top:0;
+}
+.pro1_deco2{
+    width:100%;
+    max-width:397px;
+    position:absolute;
+    bottom:40px;
+    right:0;	
+}
+.pro1_deco3{
+    width:397px;
+    position:absolute;
+    top:410px;
+    left:-240px;
+}
+.img_slwwg{
+    width:100%;
+    max-width:284px;
+    float:left;
+}
+.pro1_txt_box_1{
+    padding-top:80px;
+    width:376px;
+    float:right;
+}
+.pro1_txt_box_2{
+    margin-top:20px;
+    width:400px;	
+}
+.pro1_txt_box_3{
+    margin-top:20px;
+    width:450px;	
+}
+.massimo-sandwich-loaf-with-wheat-germ{
+    width:100%;
+    max-width:340px;
+}
+.nutritional-benefits-of-wheat-germ{
+    width:100%;
+    max-width:421px;
+}
+
+
+/*PRODUCT 2*/
+.img_wsl{
+    width:100%;
+    max-width:287px;
+    float:left;
+}
+.pro2_deco1{
+    width:100%;
+    max-width:392px;
+    position:absolute;
+    bottom:40px;
+    right:0;	
+}
+.pro2_deco2{
+    width:100%;
+    max-width:405px;
+    position:absolute;
+    top:500px;
+    left:-230px;
+}
+.pro2_deco3{
+    width:100%;
+    max-width:451px;
+    position:absolute;
+    top:0;
+    right:0;
+}
+.massimo-white-sandwich-loaf{
+    width:100%;
+    max-width:289px;
+}
+
+
+/*PRODUCT 3*/
+.img_m100wl{
+    width:100%;
+    max-width:213px;
+    float:left;
+    padding-left:50px;
+}
+.massimo-100-wheat-loaf{
+    width:100%;
+    max-width:263px;
+}
+.pro3_deco1{
+    width:100%;
+    max-width:363px;
+    position:absolute;
+    top:0;
+    left:0;	
+}
+.pro3_deco2{
+    width:100%;
+    max-width:349px;
+    position:absolute;
+    bottom:0px;
+    left:0px;	
+}
+.pro3_deco3{
+    width:100%;
+    max-width:450px;
+    position:absolute;
+    top:0px;
+    right:0px;	
+}
+.pro3_deco4{
+    width:100%;
+    max-width:513px;
+    position:absolute;
+    bottom:0px;
+    right:0px;	
+}
+
+
+/*PRODUCT 4*/
+.img_ciac{
+    width:100%;
+    max-width:651px;
+}
+.pro4_deco1{
+    width:100%;
+    max-width:278px;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+.pro4_deco2{
+    width:100%;
+    max-width:225px;
+    position:absolute;
+    bottom:40px;
+    left:0px;
+}
+.pro4_deco3{
+    width:100%;
+    max-width:330px;
+    position:absolute;
+    bottom:40px;
+    right:0px;
+}
+.chiffon-in-a-cup{
+    width:100%;
+    max-width:333px;
+    padding-bottom:20px;
+}
+.pro4_txt_box_1{
+    padding-top:0px;
+    width:500px;
+}
+
+
+/*PRODUCT 5*/
+.img_fun-buns{
+    width:100%;
+    max-width:698px;
+    margin-top:0px;
+    margin-bottom:40px;
+}
+.massimo-fun-buns{
+    width:100%;
+    max-width:549px;	
+}
+.pro5_deco1{
+    width:100%;
+    max-width:300px;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+.pro5_deco2{
+    width:100%;
+    max-width:258px;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.pro5_deco3{
+    width:100%;
+    max-width:297px;
+    position:absolute;
+    bottom:40px;
+    left:0px;
+}
+.pro5_deco4{
+    width:100%;
+    max-width:251px;
+    position:absolute;
+    bottom:25px;
+    right:0px;
+}
+
+
+/*PRODUCT 6*/
+.massimmo-100-whole-wheat-buns{
+    width:100%;
+    max-width:492px;
+}
+.img_wwb{
+    width:100%;
+    max-width:248px;
+    padding:20px 0;
+    margin:0 auto;
+}
+.pro6_deco1{
+    width:100%;
+    max-width:458px;
+    position:absolute;
+    bottom:45px;
+    left:0px;	
+}
+.pro6_deco2{
+    width:100%;
+    max-width:123px;
+    position:absolute;
+    top:0px;
+    left:0px;	
+}
+.pro6_deco3{
+    width:100%;
+    max-width:387px;
+    position:absolute;
+    top:0px;
+    right:0px;	
+}
+.pro6_deco4{
+    width:100%;
+    max-width:345px;
+    position:absolute;
+    bottom:0px;
+    right:0px;	
+}
+.pro6_txt_box_1{
+    width:500px;
+}
+
+
+/*RECIPES*/
+.recipes_content{padding-top:30px; width:690px;}
+.recipes_intor_txt{
+    font-family:'appleberry', sans-serif;
+    color:#e92c26;
+    font-size:20px;
+}
+.recipes_all{
+    margin-top:50px;
+    position:relative;
+    width:100%;
+    height:555px;
+}
+.recipes_holder{
+    max-width:316px;
+    width:100%;
+    position:absolute;
+}
+.recipes_control{
+    position:relative;
+    left:405px;
+    top:320px;
+    width:300px;
+    z-index:10;	
+}
+.recipes_name{
+    font-family:'appleberry', sans-serif;
+    color:#e92c26;
+    font-size:35px;
+    line-height:35px;
+}
+.recipes_prev, .recipes_next{
+    cursor:pointer;	
+}
+.recipes_big_title{
+    font-family:'appleberry', sans-serif;
+    color:#e92c26;
+    font-size:50px;
+    margin-top:10px;
+}
+.transbutton{
+    width:300px;
+    height:300px;
+    position:absolute;
+    z-index:8;
+    cursor:pointer;
+    top:10px;
+    left:405px;	
+}
+.plate1{
+    left:-200px;
+    top:250px;
+}
+.plate2{
+    left:70px;
+    top:50px;
+}
+.plate3{
+    left:400px;
+}
+.plate4{
+    left:730px;
+    top:50px;
+}
+.plate5{
+    left:1000px;
+    top:250px;
+}
+.title_recipes{
+    max-width:211px;
+    width:100%;
+}
+.recipes_ing_img{
+    width:100%;
+    max-width:414px;
+    float:left;
+    margin-right:20px;
+}
+.ingredients_intro_txt{
+    font-family:'appleberry', sans-serif;
+    color:#ea1425;
+    font-size:25px;
+}
+.recipes_ing_right{
+    float:right;
+    width:255px;
+}
+.recipes_step{
+    margin:0;
+    padding:0 0 0 15px;	
+}
+.recipes_step li{
+    padding-bottom:15px;	
+}
+.try_another_recipe{
+    width:100%;
+    max-width:277px;	
+}
+
+
+
+/*HALAL*/
+.halal_content{padding-top:70px; width:640px;}
+.halal_thumb, .halal_thumb_right{display:inline-block; padding-right:30px; width:100%; max-width:250px;}
+.halal_thumb_right{display:block; float:left;}
+.halal_board{width:100%; max-width:328px; margin:0 auto;}
+.halal_txt_box{float:right; width:350px;}
+.halal-policy{width:100%; max-width:585px; margin:0 auto;}
+.halal-committee{width:100%; max-width:492px; margin:0 auto;}
+
+
+/*NEWSROOM*/
+.title_newsroom{width:100%; max-width:301px;}
+.newsroom_menu1{display:inline-block; padding:25px 0;}
+.newsroom_menu2{ float:right; padding:25px 0;}
+.news_thumb_photo{
+    float:left;
+    padding-bottom:20px;
+}
+
+/*NEWS*/
+.news_content{padding-top:70px; width:714px;}
+.news_table{width:690px; margin-top:20px;}
+.news_img{width:344px; padding-right:20px;}
+.news_title{font-size:18px; color:#e92c26;}
+.news_date{font-size:15px; color:#684121;}
+.news_txt{ font-size:15px;}
+.news_pages{width:100%; max-width:252px; margin:10px auto 0;}
+.title_latest-news{max-width:335px; width:100%;}
+
+/*TOUR GALLERY*/
+.title_tour_gallery{width:100%; max-width:384px;}
+.tour_thumb_photo{
+    float:left;
+    padding-bottom:20px;
+    padding-right:20px;
+}
+
+/*CAREERS*/
+.careers_content{padding:70px 0 30px; width:690px;}
+.job_txt{font-weight:normal;}
+.title_careers{width:100%; max-width:230px;}
+.title_vacancy{width:100%; max-width:570px; padding:25px 0;}
+.job_title{font-size:30px; padding:30px 0 15px;}
+.find_out_more_btn{padding:15px 0 0;}
+.sub_line{padding:30px 0 0;}
+
+
+/*FAQ*/
+.title_faq{
+    width:100%; max-width:108px;
+}
+.accordion, .accordion * {
+    -webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    box-sizing:border-box;
+}
+
+.accordion {
+    overflow:hidden;
+    margin:10px 0;
+    padding-bottom:20px;
+}
+
+/*----- Section Titles -----*/
+.accordion-section-title {
+    width:100%; max-width:692px; height:53px;
+    background-image:url(../images/faq_bg.png);	
+    display:inline-block;
+    transition:all linear 0.15s;
+    text-shadow:0px 1px 0px #1a1a1a;
+    color:#fff;
+    padding:15px 15px 15px 20px;
+    margin:5px 0;
+}
+
+.accordion-section-title.active, .accordion-section-title:hover {
+    color:#ffdb01;
+}
+.accordion-section-title.active{
+    background-image:url(../images/faq_bg2.png);	
+}
+
+.accordion-section:last-child .accordion-section-title {
+    border-bottom:none;
+}
+
+/*----- Section Content -----*/
+.accordion-section-content {
+    padding:0 15px;
+    display:none;
+}
+
+
+/*CONTACT*/
+.contact_content{padding:70px 0 30px; width:750px;}
+.contact_txt_box_1{width:700px;	}
+.title_contact-us{max-width:326px; width:100%;}
+.title_feedback-form{max-width:428px; width:100%;}
+.contact_txt_box_2{
+    width:690px;
+    text-align:center;
+    margin-top:20px;
+}
+.location_box{
+    width:330px;
+    float:left;
+    margin-right:30px;
+}
+.map_holder{
+    margin-top:20px;
+    border:2px solid #fff;	
+}
+.map1, .map2{
+    height:330px;	
+}
+.form_fill, .form_fill2{
+    width:529px; height:40px;
+    background-image:url(../images/form_fill_bg.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    text-align:center;
+}
+.form_fill2{
+    height:100px;
+    background-image:url(../images/form_fill_bg2.png);
+}
+.input_txt, .input_area{
+    width:95%;
+    border:none;
+    outline:none;
+    font-family: 'Lato', sans-serif;
+    font-size:16px;
+    background:none;
+}
+.input_area{
+    height:80px;
+    resize:none;
+}
+.form_gap, .form_gap2{
+    width:50px;
+    height:50px;
+}
+.form_gap2{height:110px}
+.imgSubmit, .imgReset{ 
+    background-repeat: no-repeat;
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: 0;
+}
+.block_send{width:100%; height:100%; background-color:rgba(0, 0, 0, 0.7); position:fixed; z-index:999; display:none;}
+.msg_pop{position:absolute; width:481px; height:200px; background-image:url(../images/pop_bg_thanks.gif); background-repeat:no-repeat; top:50%; left:50%; -webkit-transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);
+         font-family: 'Lato', sans-serif;
+         color:#004625;
+         font-size:16px;
+         font-weight:bold;}
+.close_pop{
+    position:absolute;
+    top:-15px;
+    right:-15px;
+    cursor:pointer;
+}
+
+/*footer*/
+.footer_block{height:45px;}
+.footer{
+    height:45px;
+    background:url(../images/footer_bg.jpg) repeat-x;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:11px;
+    color:#FFF;
+    text-align:center;
+}
+.footer a{
+    color:#fff;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+    /*COMMON*/
+    body, html{
+        min-height:100vh;
+    }
+    .hide_on_mobile{
+        display:none;
+    }
+    .hide_on_desktop{display:block;}
+    #brand_name_img{margin:0 auto;}
+    .content{
+        width:100%;
+    }
+    .right_content_part, .about_content, .contact_content, .news_content, .halal_content, .recipes_content, .product_content{
+        left:0px;
+        margin:0 auto;
+        width:90%;
+        padding-top:110px;
+    }
+
+    /*NAVIGATION*/
+    .navigation{
+        width:100%;
+        height:750px;
+        background:url(../images/navi_mobile_bg.png) no-repeat center top;
+        background-size:100% 100%;
+        top:-700px;
+    }
+    .logo_mobile{
+        width:100%;
+        position:absolute;
+        text-align:center;
+        bottom:-35px;
+    }
+    .mobile_menu{
+        position:absolute;
+        bottom:10px;
+        right:20px;
+    }
+    .nav_panel{
+        position:relative;
+        top:-80px;
+        left:10%;
+        width:90%;
+    }
+    .navi_lvl_1, .navi_lvl_1_selected{
+        font-size:30px;
+        padding-left:0px;
+        margin:5px 0;
+    }
+    .navi_lvl_1:hover, .navi_lvl_1_selected{
+
+    }
+
+
+    .navi_lvl_2, .bg_stick_long, .navi_lvl_2_selected, .bg_stick_long_selected{
+        font-size:18px;
+        width:100%;
+        font-weight:normal;
+        color:#fff;
+        height:auto;
+        padding:0;
+        margin:0 0 10px 0;
+        background:none;
+    }
+    .navi_lvl_2:hover, .navi_lvl_2_selected, .bg_stick_long_selected{
+        color:#e92c26;
+        background:none;
+    }
+    .stick_box, .stick_box2, .bg_stick_long .stick_box{
+        padding:0 0px 0 0px;
+        margin:0;
+        top:0px;
+        text-shadow:none;
+    }
+    .btn_product6{
+        background:none;
+    }
+
+
+    /*LANDING*/
+    .landing_logo{
+        margin:0 auto;
+        top:10px;
+    }
+    .start_btn{
+        position:relative;
+        margin:2vh auto 2vh auto;
+        bottom:0px;
+    }
+    .massion_bread_landing{
+        width:90%;
+        height:auto;
+        position:relative;
+        margin:5vh auto 0 auto;
+    }
+    .land_1{
+        width:80%;
+        position:relative;
+        max-width:375px;
+        margin:40px auto;
+    }
+    .land_2{
+        width:100%;
+        position:relative;
+        max-width:543px;
+        margin:0 auto 20px;
+    }
+
+
+    /*ABOUT*/
+    .about_content{
+        padding-top:0px;
+        height:auto;
+        background:none;
+    }
+    .about_txt_box_1{
+        width:100%;
+    }
+    .about_txt_box_2{
+        width:100%;	
+        position:relative;
+        margin:0 auto;
+        top:0px;
+        left:0px;
+    }
+    .about_img_1{
+        width:100%;
+        max-width:398px;
+        margin:20px auto;
+        float:none;
+    }
+    .about_img_2{
+        width:100%;
+        max-width:317px;
+        margin:20px auto;
+    }
+    .title_about{
+        margin:0 auto;
+        padding-top:110px;
+    }
+    .title_brandname{
+        margin:0 auto;
+    }
+
+
+    /*PRODUCT 1*/
+    .img_slwwg{
+        float:none;
+        margin:0 auto;
+    }
+    .pro1_txt_box_1{
+        padding-top:30px;
+        width:100%;
+        float:none;
+    }
+    .pro1_txt_box_2{
+        margin-top:20px;
+        width:100%;
+    }
+    .pro1_txt_box_3{
+        margin:20px 0;
+        width:100%;
+    }
+
+
+    /*PRODUCT 2*/
+    .img_wsl{
+        float:none;
+        margin:0 auto;
+    }
+
+    /*PRODUCT 3*/
+    .massimo-100-wheat-loaf{
+        padding-bottom:0px;
+    }
+    .img_m100wl{
+        float:none;
+        margin:0 auto;
+        padding-left:0px;
+    }
+
+
+    /*PRODUCT 4*/
+    .chiffon-in-a-cup{
+        padding-bottom:0px;
+    }
+    .img_ciac{
+        float:none;
+        margin:0 auto;
+    }
+    .pro4_txt_box_1{
+        padding-top:30px;
+        width:100%;
+        float:none;
+        line-height:30px;
+    }
+
+    /*PRODUCT 5*/
+    .img_fun-buns{
+        margin:50px auto 20px;
+    }
+
+
+    /*PRODUCT 6*/
+    .img_wwb{
+        float:none;
+        margin:0 auto;
+        padding-top:0px;
+    }
+    .massimmo-100-whole-wheat-buns{
+        padding-bottom:0px;
+    }
+    .pro6_txt_box_1{
+        width:100%;
+    }
+
+
+
+    /*RECIPES*/
+    .recipes_all{
+        height:auto;
+    }
+    .recipes_holder{
+        display:none;
+        position:relative;
+    }
+    .plate3{
+        left:0px;
+        display:block;
+        margin:0 auto;
+    }
+    .transbutton{
+        width:100%;
+        top:0px;
+        left:0px;	
+    }
+    .recipes_control{
+        position:relative;
+        left:0px;
+        top:00px;
+        width:90%;
+        z-index:10;
+        margin:10px auto 20px;
+    }
+    .recipes_big_title{
+        font-size:35px;
+        margin-top:0;
+    }
+    .ingredients_intro_txt{
+        font-size:20px;
+    }
+    .recipes_ing_img{
+        float:none;
+        margin:10px 0;
+    }
+    .recipes_ing_right{
+        float:none;
+        width:100%;
+    }
+    .recipes_step{
+        margin:0;
+        padding:0 0 0 15px;	
+    }
+    .recipes_method{
+        margin:20px 0;
+    }
+
+
+    /*HALAL*/
+    .halal_thumb, .halal_thumb_right{display:block; padding:0px; width:100%; max-width:250px; margin:0 auto;}
+    .halal_thumb_right{display:block; float:none;}
+    .halal_board{width:100%; max-width:328px; margin:0 auto 30px;}
+    .halal_txt_box{float:none; width:100%; padding-top:25px;}
+    .halal-policy{width:100%; max-width:585px; margin:0 auto;}
+    .halal-committee{width:100%; max-width:492px; margin:0 auto;}
+
+
+    /*NEWS*/
+    .news_table{width:100%; margin-top:20px;}
+    .news_img{width:50%; padding-right:20px;}
+    .news_pages{width:100%; max-width:252px; margin:40px auto 20px;}
+
+    /*NEWSROOM*/
+    .newsroom_menu1{display:block; padding:25px 0 0 0; margin:0 auto;}
+    .newsroom_menu2{ float:none; padding:25px 0;  margin:0 auto;}
+    .news_thumb_photo{
+        width:50%;
+    }
+
+    /*TOUR GALLERY*/
+    .tour_thumb_photo{
+        padding-bottom:20px;
+        padding-right:0px;
+        width:50%;
+    }
+
+    /*CONTACT*/
+    .contact_txt_box_1, .contact_txt_box_2{width:100%;}
+    .location_box{width:100%; position:relative; margin:0 0 30px 0; float:none;}
+    .map_holder{margin-top:10px;	}
+    .form_fill, .form_fill2{
+        width:100%; height:40px;
+        background-size:100%;
+    }
+    .form_fill2{
+        height:100px;
+        background-size:100% 100%;
+    }
+
+    /*FAQ*/
+
+    /*----- Section Titles -----*/
+    .accordion-section-title {
+        height:auto;
+        background-repeat:none;
+        background-size:100% 100%;
+    }
+}
+
+
+@media only screen and (max-width: 900px){
+    select.change_language{
+        font-size: 30px;
+    }
+    .product_content.rolls_series {
+     padding-top: 110px; 
+    }
+    .navi_lvl_2.btn_language{
+        background: none;
+    }
+    
+    
+    /*
+/*    .nav_panel {
+        top: -50px;
+    }
+    select.change_language{
+        width:222px;
+        margin:auto;
+        margin-top: 15px;
+        display: block;
+        position: static;
+    }
+    .mobile_menu {
+        position: absolute;
+        bottom: 10px;
+    }*/
+
+}

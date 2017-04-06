@@ -1,0 +1,357 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 1, 2017, 3:38:49 PM
+    Author     : Admin
+*/
+
+
+@font-face {
+  font-family: 'HelveticaNeueLTStd-MdCn';
+  src: url('../fonts/HelveticaNeueLTStd-MdCn.eot');
+  src: url('../fonts/HelveticaNeueLTStd-MdCn/HelveticaNeueLTStd-MdCn.woff2') format('woff2'),
+       url('../fonts/HelveticaNeueLTStd-MdCn/HelveticaNeueLTStd-MdCn.woff') format('woff'),
+       url('../fonts/HelveticaNeueLTStd-MdCn/HelveticaNeueLTStd-MdCn.ttf') format('truetype'),
+       url('../fonts/HelveticaNeueLTStd-MdCn/HelveticaNeueLTStd-MdCn.svg#HelveticaNeueLTStd-MdCn') format('svg'),
+       url('../fonts/HelveticaNeueLTStd-MdCn/HelveticaNeueLTStd-MdCn.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeue-CondensedBold';
+  src: url('../fonts/HelveticaNeue-CondensedBold/HelveticaNeue-CondensedBold.eot');
+  src: url('../fonts/HelveticaNeue-CondensedBold/HelveticaNeue-CondensedBold.woff2') format('woff2'),
+       url('../fonts/HelveticaNeue-CondensedBold/HelveticaNeue-CondensedBold.woff') format('woff'),
+       url('../fonts/HelveticaNeue-CondensedBold/HelveticaNeue-CondensedBold.ttf') format('truetype'),
+       url('../fonts/HelveticaNeue-CondensedBold/HelveticaNeue-CondensedBold.svg#HelveticaNeue-CondensedBold') format('svg'),
+       url('../fonts/HelveticaNeue-CondensedBold/HelveticaNeue-CondensedBold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeue-CondensedBlack';
+  src: url('../fonts/HelveticaNeue-CondensedBlack/HelveticaNeue-CondensedBlack.eot');
+  src: url('../fonts/HelveticaNeue-CondensedBlack/HelveticaNeue-CondensedBlack.woff2') format('woff2'),
+       url('../fonts/HelveticaNeue-CondensedBlack/HelveticaNeue-CondensedBlack.woff') format('woff'),
+       url('../fonts/HelveticaNeue-CondensedBlack/HelveticaNeue-CondensedBlack.ttf') format('truetype'),
+       url('../fonts/HelveticaNeue-CondensedBlack/HelveticaNeue-CondensedBlack.svg#HelveticaNeue-CondensedBlack') format('svg'),
+       url('../fonts/HelveticaNeue-CondensedBlack/HelveticaNeueLTStd-MdCn.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* THANGLV CUSTOM HERE */
+.navi_lvl_2.btn_language{
+    background: url(../images/bg_language.png) no-repeat;
+}
+select.change_language{
+    color:#fbd501;
+    background: rgba(0,0,0,0);
+    border: none;
+    font-family: 'appleberry', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+/*    width: 83%;*/
+    margin: 5px auto;
+    outline-style: none;
+}
+.product_content.rolls_series{
+    padding-top: 40px;
+}
+
+
+@mixin gradient_left_right($primary_color,$color1,$color2,$color3,$color4, $color5){
+    background: $primary_color; /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient($color1,$color2,$color3,$color4,$color5);
+    /* For Opera 11.1 to 12.0 */
+    background: -o-linear-gradient($color1,$color2,$color3,$color4,$color5);
+    /* For Fx 3.6 to 15 */
+    background: -moz-linear-gradient($color1,$color2,$color3,$color4,$color5);
+    /* Standard syntax */
+    background: linear-gradient(to right, $color1,$color2,$color3,$color4,$color5);
+}
+.landing_motherday{
+    position: absolute;
+    z-index: 101;
+    width:100%;
+    height: 100%;
+    .overlay{
+        position: absolute;
+        background: rgba(0,0,0,.85);
+        width:100%;
+        height: 100%;
+        top:0px;
+        left: 0px;
+    }
+    .wrap_all{
+        position:absolute;
+        width: 80%;
+        left: 10%;
+        top: 5%;
+        z-index: 101;
+        background: #F6ECCF;
+        .landing_btn_close{
+            position: absolute;
+            right:-20px;
+            top:-20px;
+            z-index: 102;
+            -webkit-transition: -webkit-transform .9s; /* Safari */
+            transition: transform .9s;
+            
+            &:hover{
+                cursor: pointer;
+                -webkit-transform: rotate(180deg); /* Safari */
+                transform: rotate(180deg);
+            }
+        }
+        .wrap_image_all{
+            &.wrap_image_absolute{
+                img{
+                    position: absolute;
+                    z-index: 0;
+                }
+                .image_logo{
+                    img{
+                        top:20px;
+                        left: 20px;
+                        z-index: 1;
+                    }
+                }
+                .image_mom_and_baby{
+                    img{
+                        top:0px;
+                        right: 0px;
+                    }
+                }
+                .image_rice_tree_left_bottom{
+                    img{
+                        left: 0px;
+                        bottom: 0px; 
+                    }
+                }
+                .image_rice_tree_right_bottom{
+                    img{
+                        right: 0px;
+                        bottom: 0px;
+                    }
+                }
+            }
+        }
+
+        .wrap_border_all{
+            &.wrap_border_absolute{
+                hr{
+                    height: 5px;
+                    bottom: 0px;
+                    left:0px;
+                    padding:0px;
+                    margin:0px;
+                    border: none;
+                    &.wrap_border_green{
+                        @include gradient_left_right(green,#05522A,#037E47,#05522A,#037E47,#05522A)
+                    }
+                    &.wrap_border_white{
+                        @include gradient_left_right(white,#A4A6A9,#FFFFFF,#CFD1D2,#FFFFFF,#A4A6A9)
+                    }
+                    &.wrap_border_red{
+                        @include gradient_left_right(red,#641011,#E92327,#641011,#E92327,#641011)
+                    }
+                }
+            }
+        }
+
+        .landing_conent{
+            margin: auto;
+            padding:50px 0px 20px 0px;
+            display: table;
+            position: relative;
+            z-index: 103;
+            .landing_aside{
+                display:table-cell;
+                float:left;
+                &.landing_layout_left{
+                    margin-right: 20px;
+                    .landing_content_left{
+                        .imgHeart{
+                            img{
+                                
+                            }
+                        }
+                    }
+                }
+                &.landing_layout_right{
+                    margin-bottom: 40px;
+                    .landing_content_right{
+                        text-align: center;
+                        .landing_content_unbox{
+                            margin-bottom:50px;
+                            font-family: 'HelveticaNeue-CondensedBold';
+                            h1{
+                                color:#007D47;
+                                font-size: 40px;
+                                margin:0px;
+                                padding:0px;
+                                line-height: 39px;
+                            }
+                            h2{
+                                color:#F7941E;
+                                font-size: 60px;
+                                line-height: 60px;
+                                text-transform: uppercase;
+                                margin:0px;
+                                padding:0px;
+                            }
+                        }
+                        .landing_content_box{
+                            border:3px solid #007D47;
+                            padding-left:25px;
+                            padding-right:25px;
+                            padding-bottom:20px;
+                            .landing_content_box_title{
+                                color:#F7941E;
+                                h3{
+                                    margin:0px;
+                                    font-size: 35px;
+                                    background:#f6eccf;
+                                    margin-top: -20px;
+                                    display: -webkit-inline-box;
+                                    padding-left: 10px;
+                                    padding-right: 10px;
+                                }
+                                h4{
+                                    margin: auto;
+                                    margin-bottom: 20px;
+                                    padding-bottom: 10px;
+                                    font-size: 20px;
+                                    border-bottom: 3px solid #007D47;
+                                    width:250px;
+                                }
+                            }
+                            .landing_content_box_detail{
+                                color:#007D47;
+                                font-family: "HelveticaNeueLTStd-MdCn";
+                                p{
+                                    font-size: 18px;
+                                    margin-bottom:10px;
+                                    margin-top: 5px;
+                                    br{
+
+                                    }
+                                    b{
+                                        font-weight: 900;
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+            .landing_footer{
+                .group_button{
+                    text-align: center;
+                    a{
+                        &.button_square_orange{
+                            background:#F7941E;
+                            padding:10px 50px;
+                            border:3px solid white;
+                            color:white;
+                            line-height: 30px;
+                            text-align: center;
+                            font-size: 18px;
+                            font-weight:600;
+                            margin:5px;
+                            
+                            
+                            -webkit-transition: all .2s ease; /* Safari */
+                            transition: all .2s ease;
+                            
+                            img{
+                                vertical-align: middle;
+                            }
+                            &:hover{
+                                background: #007d47;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .landing_motherday .wrap_all .landing_conent .landing_aside.landing_layout_left .landing_content_left .imgHeart img{
+        width:70%;
+        margin: auto;
+        display: table;
+        margin-top:100px;
+    }
+    .landing_motherday .wrap_all .landing_conent .landing_aside.landing_layout_right .landing_content_right .landing_content_unbox h1{
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .landing_motherday .wrap_all .landing_conent .landing_aside.landing_layout_right .landing_content_right .landing_content_unbox h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .landing_motherday .wrap_all .landing_conent .landing_aside.landing_layout_right .landing_content_right .landing_content_unbox{
+        margin-bottom: 35px;
+    }
+    .landing_motherday .wrap_all .landing_conent .landing_aside.landing_layout_right .landing_content_right .landing_content_box .landing_content_box_title h3{
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .landing_motherday .wrap_all .landing_conent .landing_aside.landing_layout_right .landing_content_right .landing_content_box .landing_content_box_title h4{
+        font-size: 18px;
+    }
+    .landing_motherday .wrap_all {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        top: 5%;
+    }
+    .landing_motherday .wrap_all .wrap_image_all.wrap_image_absolute .image_logo img{
+        top:20px;
+        left:20px;
+        width:100px;
+    }
+    .landing_motherday .wrap_all .landing_conent .landing_aside.landing_layout_left{
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .landing_motherday .wrap_all .landing_conent .landing_footer .group_button a.button_square_orange{
+        display: block;
+        clear: both;
+    }
+    .landing_motherday .wrap_all .landing_conent .landing_aside.landing_layout_left .landing_content_left .imgHeart img{
+        width:50%;
+        margin: auto;
+        display: table;
+        margin-top:0px;
+    }
+
+    .landing_motherday .wrap_all .wrap_image_all.wrap_image_absolute .image_logo img{
+        top:10px;
+        left:10px;
+        width:50px;
+    }
+
+}
+@media only screen and (max-width: 320px){
+    .landing_motherday .wrap_all .landing_conent .landing_aside.landing_layout_right .landing_content_right .landing_content_box{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+}
+
