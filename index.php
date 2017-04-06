@@ -33,7 +33,7 @@ body, html{
                             <h4>MOTHER'S DAY WITH US</h4>
                         </div>
                         <div class="landing_content_box_detail">
-                            <p>Queensbay Mall, Penang - Group Floor, Central Atrium<br><b>27 April - 1 May 2017</b></p>
+                            <p>Queensbay Mall, Penang - Ground Floor, Central Atrium<br><b>27 April - 1 May 2017</b></p>
                             <p>AEON Bukit Indah, Johor Bahru - Ground Floor, Centre Court<br><b>3 May - 7 May 2017</b></p>
                             <p>One Utama, Petaling Jaya - Ground Floor, Centre Court<br><b>10 May - 14 May 2017</b></p>
                         </div>
